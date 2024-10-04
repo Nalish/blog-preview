@@ -1,0 +1,58 @@
+@import url(ttps://fonts.google.com/specimen/Figtree);
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+body{
+    display :flex;
+    flex-direction:column;
+    justify-content: center;
+    background-color: hsl(47, 88%, 63%);
+    min-height: 100vh;
+    font-size: 1em;
+    font-family: Figtree;
+}
+
+.card-container{
+    margin-inline: auto;
+    max-width: 370px;
+    border-radius:20px;
+    padding-left:20px;
+    padding-top:10px;
+   background-color: hsl(0, 0%, 100%);
+   box-shadow: 8px 5px black;
+}
+img{
+    border-radius:20px;
+
+}
+p{
+    color:hsl(0, 0%, 42%);
+}
+.date{
+    color:hsl(0, 0%, 7%);
+    margin-bottom: 10px;
+}
+button{
+    background-color: hsl(47, 88%, 63%);
+    padding:10px;
+    border-radius: 10px;
+    font-weight:800;
+    margin-bottom:10px;
+    
+}
+
+.name{
+    color:hsl(0, 0%, 7%);
+    padding-left: 20px;
+    font-weight: 500;
+    
+}
+.profile{
+    display: flex;
+    align-items:center;
+
+}
